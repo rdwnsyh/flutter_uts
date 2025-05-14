@@ -1,17 +1,36 @@
-# flutter_application_uts
+# Flutter Form Application
 
-A new Flutter project.
+Aplikasi Flutter sederhana untuk UTS Pemrograman untuk Perangkat Bergerak yang mendemonstrasikan penggunaan form dan navigasi antar halaman.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+### 1. Form Input
+- TextField untuk input nama dengan validasi
+- TextField untuk input email dengan validasi format
+- Tombol submit dengan border radius 12px
+- Validasi form (nama tidak boleh kosong, email harus valid)
 
-A few resources to get you started if this is your first Flutter project:
+### 2. UI Responsif
+- Layout adaptif berdasarkan lebar layar
+- Mode tablet/desktop: form ditampilkan dalam 2 kolom
+- Mode mobile: form ditampilkan dalam 1 kolom
+- Maksimum lebar konten: 800px
+- Warna background yang soft dan nyaman di mata
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 3. Dialog & Navigasi
+- Alert dialog menampilkan konfirmasi data input
+- Navigasi ke halaman "Terima Kasih" setelah submit
+- Implementasi Named Routes untuk navigasi
+- Pengiriman data antar halaman menggunakan route arguments
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_uts
+### 4. Styling
+- Tema konsisten dengan warna dasar biru
+- Input field dengan border radius
+- Font family: Roboto
+- Responsive layout dengan LayoutBuilder
+- Padding dan spacing yang konsisten
+
+## Teknologi
+- Flutter
+- Dart
+- Material Design
